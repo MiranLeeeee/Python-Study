@@ -6,5 +6,9 @@
 # 반복문 앞 배열의 원소 i로 담는다.
 
 a = [i for i in range(10)]
-
 print(a)
+
+# 0부터 9까지 수 중 짝수만 포함하는 리스트
+# 컴프리헨션은 반복문만 아니라 조건문을 활용
+b = [i for i in range(10) if i%2 == 0]
+print(b)
