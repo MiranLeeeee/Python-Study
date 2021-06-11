@@ -11,3 +11,9 @@ b = {
     '멜론': 10000
 }
 print(b)
+
+#키를 통한 출력
+print(b['복숭아'])
+
+key_list = list(b.keys())
+print(key_list)
