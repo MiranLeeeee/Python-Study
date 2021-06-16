@@ -7,8 +7,11 @@
 # 데이터 하나만 입력할 경우
 n = int(input())
 
+# 개수가 정해진 경우
+a, b, c = map(int, input().split())
+print(a, b, c)
+
 # 정해지지 않는 개수만큼 입력한 경우
 # 입력한 데이터를 공백으로 나누어 int형으로 지정하여 리스트에 저장
 a = list(map(int, input().split()))
-
 print(a)
